@@ -1,0 +1,4 @@
+baseURL = 'https://blog.erfun.net/'
+languageCode = 'fa-ir'
+title = 'ErFun'
+theme = 'ananke'
