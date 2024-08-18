@@ -1,7 +1,7 @@
 baseURL = 'https://blog.erfun.net/'
 languageCode = "fa"
 title = 'وبلاگ'
-theme = 'paper'
+#theme = 'paper'
 author = "Erfun Kh"
 copyright = "© 2024, erfun.net"
 paginate = 3
@@ -73,3 +73,7 @@ disableInlineCSS = true
 
 [services.twitter]
 disableInlineCSS = true
+
+[module]
+[[module.imports]]
+path = "github.com/ErFUN-KH/hugo-paper-rtl"
