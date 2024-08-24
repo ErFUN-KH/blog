@@ -1,4 +1,4 @@
-baseURL = '//blog.erfun.net/'
+baseURL = 'https://blog.erfun.net/'
 languageCode = "fa"
 title = 'وبلاگ'
 #theme = 'paper'
@@ -18,7 +18,7 @@ github = 'ErFUN-KH'
 
 avatar = 'erfun.kh@gmail.com'
 name = 'عرفان'
-bio = 'فعلا برای تست اینجا باشه'
+bio = 'یه برنامه‌نویس که سعی می‌کنه عمیق و کم هزینه باشه، از هرچیزی که بلدم می‌نویسم تا مطمئن‌شم درست یادش گرفتم.'
 # ------------------------------
 
 # needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
