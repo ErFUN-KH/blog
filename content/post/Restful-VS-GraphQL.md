@@ -46,9 +46,11 @@ aliases = ["rest-vs-graphql"]
 
 برای مثال یک وبلاگ درنظر بگیرید، شما یک سری مقاله دارید و تعدادی کامنت، پس در یک سرویس رست‌فول اندپوینت‌ها باید به این صورت باشن:
 
-> GET /posts/<postId> - To fetch a particular post
-> GET /posts/<postId>/comments - To fetch all comments related to a post
-> GET /posts/<postId>/comments/<commentId> - To fetch a particular comment of a particular post
+```
+GET /posts/<postId> - To fetch a particular post
+GET /posts/<postId>/comments - To fetch all comments related to a post
+GET /posts/<postId>/comments/<commentId> - To fetch a particular comment of a particular post
+```
 
    همینطور که می‌بینید هرچه تعداد اِلمان‌های صفحه بیشتر میشه تعداد اندپوینت‌ها افزایش پیدا میکنه، هرچه برنامه بزرگتر بشه توسعه و نگهداری این اندپوینت‌ها سخت تر میشه. (البته هنوزم از روش‌های سنتی مثل MVC بهتره)
 
@@ -70,7 +72,7 @@ aliases = ["rest-vs-graphql"]
 
 #### 1. یک ریکوئست ارسال کن و تمام دیتاها دریافت کن
 یک سرویس گراف‌کیوال تنها یک اندپوینت داره و کاربر میتونه کوئری موردنظرش رو بهش ارسال کنه و دیتای مورد نیازشو بگیره، بذارید با همون مثال وبلاگ توضیح بدیم:
-``json
+```
 {
     findPost(id: <postId>) {
         id
@@ -84,7 +86,7 @@ aliases = ["rest-vs-graphql"]
         }
     }
 }
-``
+```
 همنیطور که میبینید تمام اطلاعات موردنیازمون تنها با یک ریکوئست دریافت کردیم، پس اگر به دیتای بیشتری نیاز داشته باشم فقط باید کوئری بزرگتری بنویسم.
 
 #### 2. Strongly Typed
